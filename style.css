@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-image: url("https://colorlib.com/etc/email-template/7/images/bg_2.jpg");
+    width: 450px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+.winter{
+    text-transform: uppercase;
+    color: aliceblue;
+    border: 2px solid ;
+    padding: 7px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 34px;
+}
+.description{
+    color: aliceblue;
+    padding: 7px;
+}
+.read-more{
+    color: aliceblue;
+    background-color: lightseagreen;
+    border: 0;
+    padding: 12px;
+    border-radius: 19px;
+}
+.read-more:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.subtittle{
+    text-transform: uppercase;
+    font-family: 'anton', sans-serif;
+    font-size: 34px;
+}
+img{
+    width: 225px;
+    height: 225px;
+}
+.parent-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.parent-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.parent-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.posted{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.tips{
+    font-size: 27px;
+    font-family: 'Baskervville', serif;
+}
+p{
+    color: grey;
+    line-height: 1.6rem;
+    
+}
+.img1{
+    width:750px;
+    height: 450px;
+}
+.thirdpage{
+padding: 19px;
+display: grid;
+place-items: center;
+background-color: azure;
+}
+h3{
+font-size: 34px;
+}
+.last-paragraph{
+padding: 7px;
+line-height: 1.8rem;
+}
+footer{
+background-color: black;
+padding: 70px 0px;
+width: 850px;
+height: 550px;
+
+}
+.lastpage{
+display: flex;
+flex-wrap: wrap;
+}
+.about{
+width: 25%;
+padding: 0 15px;
+}
+h4{
+font-size: 18px;
+color: aliceblue;
+text-transform: capitalize;
+font-weight: 500;
+text-decoration: underline;
+
+}
+.last-text{
+text-align: right;
+padding-right: 55px;
+}
+.location{
+display: block;
+}
+ul li{
+list-style: none;
+font-size: 14px;
+}
+ul li a{
+text-decoration: none;
+color: aliceblue;
+font-family: arial;
+font-weight: bold;
+display: block;
+line-height: 2rem;
+}
+ul li a:hover{
+cursor: pointer;
+padding-left: 10px;
+}
+.last-text a{
+text-decoration: none;
+color: aliceblue;
+font-family: arial;
+font-weight: bold;
+}
+.last-text a:hover{
+cursor: pointer;
+font-size: 20px;
+}
+
+
+
