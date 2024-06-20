@@ -25,7 +25,7 @@ h1{
     font-size: 34px;
 }
 .description{
-    color: aliceblue;
+    color: #020617;
     padding: 7px;
 }
 .read-more{
@@ -51,7 +51,7 @@ img{
 .parent-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-gap: 0;
 }
 .parent-container2{
     display: grid;
@@ -75,6 +75,7 @@ img{
 p{
     color: grey;
     line-height: 1.6rem;
+    margin-left: 10px;
     
 }
 .img1{
